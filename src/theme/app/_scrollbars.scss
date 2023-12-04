@@ -9,7 +9,7 @@
 	overflow: hidden overlay !important;
 	&::-webkit-scrollbar {
 		width: 8px;
-		display: none;
+		display: block;
 		background: transparent !important;
 	}
 	&::-webkit-scrollbar-track {
@@ -33,7 +33,7 @@
 	}
 	&::-webkit-scrollbar-button,
 	&::-webkit-scrollbar-corner {
-		display: none !important;
+		display: block !important;
 	}
 	&:hover::-webkit-scrollbar {
 		display: block;
