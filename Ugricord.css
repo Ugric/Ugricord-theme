@@ -263,8 +263,99 @@ html.theme-light .container_ca50b9 {
 .list__41249,
 [class*=scrollerBase_],
 .container_d6dad3 {
-  scrollbar-width: thin;
-  scrollbar-color: #202225 #2f3136;
+  overflow: hidden overlay !important;
+}
+.members__9f47b::-webkit-scrollbar,
+.peopleList__2379e::-webkit-scrollbar,
+.sidebarRegionScroller__1fa7e::-webkit-scrollbar,
+.contentRegionScroller__86c79::-webkit-scrollbar,
+.customScroller_f72801::-webkit-scrollbar,
+.list__41249::-webkit-scrollbar,
+[class*=scrollerBase_]::-webkit-scrollbar,
+.container_d6dad3::-webkit-scrollbar {
+  width: 8px;
+  background: transparent !important;
+}
+.members__9f47b::-webkit-scrollbar-track,
+.peopleList__2379e::-webkit-scrollbar-track,
+.sidebarRegionScroller__1fa7e::-webkit-scrollbar-track,
+.contentRegionScroller__86c79::-webkit-scrollbar-track,
+.customScroller_f72801::-webkit-scrollbar-track,
+.list__41249::-webkit-scrollbar-track,
+[class*=scrollerBase_]::-webkit-scrollbar-track,
+.container_d6dad3::-webkit-scrollbar-track {
+  margin: 0;
+}
+.members__9f47b::-webkit-scrollbar-track-piece,
+.peopleList__2379e::-webkit-scrollbar-track-piece,
+.sidebarRegionScroller__1fa7e::-webkit-scrollbar-track-piece,
+.contentRegionScroller__86c79::-webkit-scrollbar-track-piece,
+.customScroller_f72801::-webkit-scrollbar-track-piece,
+.list__41249::-webkit-scrollbar-track-piece,
+[class*=scrollerBase_]::-webkit-scrollbar-track-piece,
+.container_d6dad3::-webkit-scrollbar-track-piece {
+  background: transparent;
+  border-color: transparent;
+}
+.members__9f47b::-webkit-scrollbar-thumb,
+.peopleList__2379e::-webkit-scrollbar-thumb,
+.sidebarRegionScroller__1fa7e::-webkit-scrollbar-thumb,
+.contentRegionScroller__86c79::-webkit-scrollbar-thumb,
+.customScroller_f72801::-webkit-scrollbar-thumb,
+.list__41249::-webkit-scrollbar-thumb,
+[class*=scrollerBase_]::-webkit-scrollbar-thumb,
+.container_d6dad3::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-background);
+  border-radius: 0;
+  border-radius: var(--border-radius);
+  border: none;
+}
+.members__9f47b::-webkit-scrollbar-thumb:hover,
+.peopleList__2379e::-webkit-scrollbar-thumb:hover,
+.sidebarRegionScroller__1fa7e::-webkit-scrollbar-thumb:hover,
+.contentRegionScroller__86c79::-webkit-scrollbar-thumb:hover,
+.customScroller_f72801::-webkit-scrollbar-thumb:hover,
+.list__41249::-webkit-scrollbar-thumb:hover,
+[class*=scrollerBase_]::-webkit-scrollbar-thumb:hover,
+.container_d6dad3::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-background-hover);
+}
+.members__9f47b::-webkit-scrollbar-thumb:active,
+.peopleList__2379e::-webkit-scrollbar-thumb:active,
+.sidebarRegionScroller__1fa7e::-webkit-scrollbar-thumb:active,
+.contentRegionScroller__86c79::-webkit-scrollbar-thumb:active,
+.customScroller_f72801::-webkit-scrollbar-thumb:active,
+.list__41249::-webkit-scrollbar-thumb:active,
+[class*=scrollerBase_]::-webkit-scrollbar-thumb:active,
+.container_d6dad3::-webkit-scrollbar-thumb:active {
+  background-color: var(--scrollbar-background-active);
+}
+.members__9f47b::-webkit-scrollbar-button, .members__9f47b::-webkit-scrollbar-corner,
+.peopleList__2379e::-webkit-scrollbar-button,
+.peopleList__2379e::-webkit-scrollbar-corner,
+.sidebarRegionScroller__1fa7e::-webkit-scrollbar-button,
+.sidebarRegionScroller__1fa7e::-webkit-scrollbar-corner,
+.contentRegionScroller__86c79::-webkit-scrollbar-button,
+.contentRegionScroller__86c79::-webkit-scrollbar-corner,
+.customScroller_f72801::-webkit-scrollbar-button,
+.customScroller_f72801::-webkit-scrollbar-corner,
+.list__41249::-webkit-scrollbar-button,
+.list__41249::-webkit-scrollbar-corner,
+[class*=scrollerBase_]::-webkit-scrollbar-button,
+[class*=scrollerBase_]::-webkit-scrollbar-corner,
+.container_d6dad3::-webkit-scrollbar-button,
+.container_d6dad3::-webkit-scrollbar-corner {
+  display: none !important;
+}
+.members__9f47b:hover::-webkit-scrollbar,
+.peopleList__2379e:hover::-webkit-scrollbar,
+.sidebarRegionScroller__1fa7e:hover::-webkit-scrollbar,
+.contentRegionScroller__86c79:hover::-webkit-scrollbar,
+.customScroller_f72801:hover::-webkit-scrollbar,
+.list__41249:hover::-webkit-scrollbar,
+[class*=scrollerBase_]:hover::-webkit-scrollbar,
+.container_d6dad3:hover::-webkit-scrollbar {
+  display: block;
 }
 
 #app-mount .tooltipPrimary_e5c00d {
