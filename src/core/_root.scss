@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
 /* Theme imports */
-@import url('https://ugric.github.com/Ugricord-theme/RadialGlow.css'); /* RadialGlow effect for avatars. | Remove this line to disable. */
-@import url('https://ugric.github.com/Ugricord-theme/VerticalUserArea.css'); /* Vertical user area. Moves the mute, defean and settings icons to the server list. | Remove this line to disable. */
+@import url('https://ugric.github.io/Ugricord-theme/RadialGlow.css'); /* RadialGlow effect for avatars. | Remove this line to disable. */
+@import url('https://ugric.github.io/Ugricord-theme/VerticalUserArea.css'); /* Vertical user area. Moves the mute, defean and settings icons to the server list. | Remove this line to disable. */
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css'); /* Windows titlebar. | Remove this line to disable. */
 
 .fixClipping__9c8f4 {
@@ -14,7 +14,7 @@
 	/*
 	 * SoftX variables
 	 */
-	--background-image: url('https://ugric.github.com/Ugricord-theme/background.png'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--background-image: url('https://ugric.github.io/Ugricord-theme/background.png'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
 	--background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
 
 	--accent: 0, 231, 169; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
