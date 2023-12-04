@@ -8,7 +8,6 @@ export default {
 		source: 'https://github.com/Ugric/Ugricord-theme',
 	},
 	dev:"/home/william/.config/Ugricord/Ugricord/themes",
-	dist: 'dist',
 	baseImport: 'https://ugric.github.io/Ugricord-theme/Ugricord.css',
 	addons: [
 		['src/addons/_radialglow.scss', 'dist/RadialGlow.css'],
