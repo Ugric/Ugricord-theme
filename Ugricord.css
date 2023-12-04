@@ -274,7 +274,7 @@ html.theme-light .container_ca50b9 {
 [class*=scrollerBase_]::-webkit-scrollbar,
 .container_d6dad3::-webkit-scrollbar {
   width: 8px;
-  display: none;
+  display: block;
   background: transparent !important;
 }
 .members__9f47b::-webkit-scrollbar-track,
@@ -346,7 +346,7 @@ html.theme-light .container_ca50b9 {
 [class*=scrollerBase_]::-webkit-scrollbar-corner,
 .container_d6dad3::-webkit-scrollbar-button,
 .container_d6dad3::-webkit-scrollbar-corner {
-  display: none !important;
+  display: block !important;
 }
 .members__9f47b:hover::-webkit-scrollbar,
 .peopleList__2379e:hover::-webkit-scrollbar,
