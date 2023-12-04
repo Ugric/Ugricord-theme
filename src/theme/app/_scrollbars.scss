@@ -6,36 +6,6 @@
 .list__41249,
 [class*='scrollerBase_'],
 .container_d6dad3 {
-	overflow: hidden overlay !important;
-	&::-webkit-scrollbar {
-		width: 8px;
-		display: block;
-		background: transparent !important;
-	}
-	&::-webkit-scrollbar-track {
-		margin: 0;
-	}
-	&::-webkit-scrollbar-track-piece {
-		background: transparent;
-		border-color: transparent;
-	}
-	&::-webkit-scrollbar-thumb {
-		background-color: var(--scrollbar-background);
-		border-radius: 0;
-		border-radius: var(--border-radius);
-		border: none;
-		&:hover {
-			background-color: var(--scrollbar-background-hover);
-		}
-		&:active {
-			background-color: var(--scrollbar-background-active);
-		}
-	}
-	&::-webkit-scrollbar-button,
-	&::-webkit-scrollbar-corner {
-		display: block !important;
-	}
-	&:hover::-webkit-scrollbar {
-		display: block;
-	}
+  scrollbar-width: thin;
+  scrollbar-color: #202225 #2f3136;
 }
