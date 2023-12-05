@@ -22,6 +22,10 @@
   justify-content: center;
 }
 
+.scroller__3d071 .none__51a8f .scrollerBase_dc3aa9::-webkit-scrollbar {
+  display: none !important;
+}
+
 :root {
   /*
    * SoftX variables
